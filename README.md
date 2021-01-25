@@ -1,5 +1,5 @@
 # geocalculator
-My Websites: calpardo.com agribots.tech
+My website: https://calpardo.com
 
 Instructions:
 Run the .exe file in this repo. or folder
