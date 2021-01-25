@@ -29,7 +29,7 @@ while True:
         print("----------------")
         print("Choose an Action:")
         print("1 -> Area")
-        print("2 -> Surround")
+        print("2 -> Perimeter")
         print("----------------") 
         action1 = input()
         if action1 == "1":
@@ -54,7 +54,7 @@ while True:
         print("----------------")
         print("Choose an Action:")
         print("1 -> Area")
-        print("2 -> Surround")
+        print("2 -> Perimeter")
         print("----------------")  
         action2 = input()
         if action2 == "1":
@@ -78,7 +78,7 @@ while True:
         print("----------------")
         print("Choose an Action:")
         print("1 -> Area")
-        print("2 -> Surround")
+        print("2 -> Perimeter")
         print("----------------")  
         action3 = input()
         if action3 == "1":
@@ -90,7 +90,7 @@ while True:
             print("----------------")
             squ_edge =   float(input ("Enter the square's edge in cm: "))
             print("----------------")
-            print("Your Rectangular's Surround is ",format(4*squ_edge),"cm")
+            print("Your Rectangular's Perimeter is ",format(4*squ_edge),"cm")
         else :
             print("----------------")
             print("You Entered Wrong Value")
@@ -101,7 +101,7 @@ while True:
         print("----------------")
         print("Choose an Action:")
         print("1 -> Area")
-        print("2 -> Surround")
+        print("2 -> Perimeter")
         print("----------------")  
         action4 = input()
         if action4 == "1":
