@@ -44,7 +44,7 @@ while True:
             tri_edge2 =   float(input ("Enter the triangle's second edge in cm: "))
             tri_edge3 =   float(input ("Enter the triangle's third edge in cm: "))
             print("----------------")
-            print("Your Triangle's Surround is ",format(tri_edge1+tri_edge2+tri_edge3),"cm")
+            print("Your Triangle's Perimeter is ",format(tri_edge1+tri_edge2+tri_edge3),"cm")
         else :
             print("----------------")
             print("You Entered Wrong Value")
@@ -62,13 +62,13 @@ while True:
             rec_edge1 =   float(input ("Enter the rectangle's first edge in cm: "))
             rec_edge2 =   float(input ("Enter the rectangle's second edge in cm: "))
             print("----------------")
-            print("Your Rectangular's Area is ",format(rec_edge1*rec_edge2),"cm2")
+            print("Your Rectangle's Area is ",format(rec_edge1*rec_edge2),"cm2")
         elif action2 == "2":
             print("----------------")
             rec_edge1 =   float(input ("Enter the rectangle's first edge in cm: "))
             rec_edge2 =   float(input ("Enter the rectangle's second edge in cm: "))
             print("----------------")
-            print("Your Rectangular's Surround is ",format(2*rec_edge1 + 2*rec_edge2),"cm")
+            print("Your Rectangle's Perimeter is ",format(2*rec_edge1 + 2*rec_edge2),"cm")
         else :
             print("----------------")
             print("You Entered a Wrong Value")
@@ -90,7 +90,7 @@ while True:
             print("----------------")
             squ_edge =   float(input ("Enter the square's edge in cm: "))
             print("----------------")
-            print("Your Rectangular's Perimeter is ",format(4*squ_edge),"cm")
+            print("Your Rectangle's Perimeter is ",format(4*squ_edge),"cm")
         else :
             print("----------------")
             print("You Entered Wrong Value")
@@ -107,18 +107,18 @@ while True:
         if action4 == "1":
             print("----------------")
             trap_edge1 =   float(input ("Enter the trapezoid's top edge in cm: "))
-            trap_edge2 =   float(input ("Enter the rectangle's bottom edge in cm: "))
+            trap_edge2 =   float(input ("Enter the trapezoid's bottom edge in cm: "))
             trap_h =   float(input ("Enter the trapezoid's height in cm: "))
             print("----------------")
             print("Your Trapezoid's Area is ",format((trap_edge1+trap_edge2)*trap_h/2),"cm2")
         elif action4 == "2":
             print("----------------")
-            trap_edge1 =   float(input ("Enter the rectangle's top edge in cm: "))
-            trap_edge2 =   float(input ("Enter the rectangle's bottom edge in cm: "))
+            trap_edge1 =   float(input ("Enter the trapezoid's top edge in cm: "))
+            trap_edge2 =   float(input ("Enter the trapezoid's bottom edge in cm: "))
             trap_edge3 =   float(input ("Enter the trapezoid's right edge in cm: "))
             trap_edge4 =   float(input ("Enter the trapezoid's left edge in cm: "))
             print("----------------")
-            print("Your Trapezoid's Surround is ",format(trap_edge1+trap_edge2+trap_edge3+trap_edge4),"cm")
+            print("Your Trapezoid's Perimeter is ",format(trap_edge1+trap_edge2+trap_edge3+trap_edge4),"cm")
         else :
             print("----------------")
             print("You Entered Wrong Value")
@@ -135,9 +135,9 @@ while True:
     time.sleep(2)
     print("Do you want to continue?")
     ans = input()
-    if ans == "no":
+    if ans == "n":
         exit()
-    if ans == "yes" or "y" or "ja" or "evet":
+    else if ans == "y":
         continue
     else:
         exit()
